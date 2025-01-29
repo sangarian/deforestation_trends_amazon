@@ -1,7 +1,7 @@
 # Deforestation Trends in Amazon
 
 
-This project examines forest loss trends along Brazil’s entire Amazonian border, focusing on a 27 km buffer zone inside and outside the border where Brazil shares boundaries with neighboring countries. The Global Forest Change dataset (Hansen et al., 2023) is used to extract forest cover in 2000, annual deforestation, and forest gain. The deforestation layer is segmented into three key periods: 2001–2005 (Pre-conservation policies), 2006–2013 (Strict conservation policies), 2014–2020 (Policy relaxation)
+This project examines forest loss trends along Brazil’s entire Amazonian border, focusing on a 27 km buffer zone inside and outside the border where Brazil shares boundaries with neighboring countries. The Global Forest Change dataset (Hansen et al., 2023) is used to extract forest cover in 2000, annual deforestation, and forest gain. The deforestation layer is segmented into three key periods: 2001–2005 (Pre-conservation policies), 2006–2013 (Strict conservation policies), 2014–2020 (Policy relaxation). 
 
 # Data Processing in GEE
 The dataset is clipped to the Amazon Basin (from MapBiomas) and masked to show only areas where deforestation or forest gain occurred. The lossyear band is used to extract deforestation trends for the three time intervals. Given the large dataset size, tiled exports are created in 30m resolution and saved to Google Drive for further analysis in QGIS.
